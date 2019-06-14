@@ -18,23 +18,37 @@ git config --global user.email "user_email"
 where, user_name and user_email stands for your user name and email used on github
 
 3. You can now open the terminal and type the following commands
-```git init first_repository```
+```
+git init first_repository
+```
 4. This will create a folder that you should add all your files
     Then enter in the git repository
-    ```cd first_repository```
+    ```
+    cd first_repository
+    ```
 5.  You can now add all your files in this folder and make a README.md file
 6. Add files For commiting
-```git add -A``` 
+```
+git add -A
+``` 
 This adds all of the files at once but you can change -A to a specific file name and add them one after the other.
 example 
-```git add hello.html```
+```
+git add hello.html
+```
 7. Commit the changes you made 
-   ```git commit -m "first repository"```
+   ```
+   git commit -m "first repository"
+   ```
    The words in the quotation are comments for your changes
 8.Type the following command to link to your remote repository
-```git remote add origin https://github.com/user_name/first_repository.git```
+```
+git remote add origin https://github.com/user_name/first_repository.git
+```
 9. Push your changes to your remote repository 
-```git push -u origin master```
+```
+git push -u origin master
+```
 
 
    
