@@ -41,7 +41,7 @@ example
    git commit -m "first repository"
    ```
    The words in the quotation are comments for your changes
-8.Type the following command to link to your remote repository
+8. Type the following command to link to your remote repository
    ```
    git remote add origin https://github.com/user_name/first_repository.git
    ```
