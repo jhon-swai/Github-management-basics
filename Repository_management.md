@@ -49,6 +49,14 @@ example
    ```
    git push -u origin master
    ```
+10. If their is a conlict ie there is added files in the remote repository that you do not then you have to pull the changes then push
+```
+git pull
+```
+then 
+```
+git push
+```
 
 
    
