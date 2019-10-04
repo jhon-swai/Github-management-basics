@@ -57,6 +57,9 @@ then
 ```
 git push
 ```
+11. If you encounter another merging conflic like.
+..* [fatal: refusing to merge unrelated histories](https://github.com/jhon-swai/Github-management-basics/blob/master/Solving_merge_conflicts.md)
+
 
 
    
