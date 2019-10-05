@@ -10,3 +10,13 @@ Run this code to resolve this
 ```
 git pull --allow-unrelated-histories
 ```
+## fatal: unable to access 'https://github.com/<user-name>/<repository-name>.git/': Could not resolve host: github.com
+Worry not because this is not a big deal, ofcourse it's a common issue. There is two possible solutions for this.
+1. Try closing all instances(tabs in your browser) to your github account. Then push your changes.
+2. If the above solution did not work then write the following in terminal
+```
+git config --global --unset http.proxy 
+git config --global --unset https.proxy
+```
+
+
