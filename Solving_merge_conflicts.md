@@ -18,5 +18,6 @@ Worry not because this is not a big deal, ofcourse it's a common issue. There is
 git config --global --unset http.proxy 
 git config --global --unset https.proxy
 ```
+Then push your changes
 
 
